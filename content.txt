@@ -1,0 +1,18 @@
+Lecture-1:	    Installation of Python
+Lecture 2:  	Why Python
+Lecture 3: 	    Variables Expression and statements
+Lecture 4: 	    Conditional Execution
+Lecture 5: 	    Functions
+Lecture 6: 	    Loops and iterations
+Lecture 7: 	    Strings
+Lecture 8: 	    Files
+Lecture 9: 	    List
+Lecture 10: 	Tuples
+Lecture 11: 	Dictionary
+Lecture 12: 	Regex
+Lecture 13: 	Object Oriented Programming
+Lecture 14: 	Network Programming
+Lecture 15: 	Web-Services
+Lecture 16: 	Py Database
+Lecture 17: 	Advanced Python
+
