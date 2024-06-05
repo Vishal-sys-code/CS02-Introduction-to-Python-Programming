@@ -57,3 +57,9 @@ def hello(**kwargs):
 
 print(hello(first = "Opera", middle = "Henry", last = "Kushgoterava"))
 ```
+
+<hr>
+
+## **Using *args and **kwargs in Python to set values of object**
+* `*args` receives arguments as a tuple.
+* `**kwargs` receives arguments as a dictionary.
