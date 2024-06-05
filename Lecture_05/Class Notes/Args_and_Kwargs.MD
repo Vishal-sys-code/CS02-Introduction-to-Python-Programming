@@ -27,3 +27,6 @@ print(add(1,2,3,4,5,6,7,8,9,10))
 ```
 
 **NOTE :** Here in the above code we can change the name of the argument which is *args to anything like your name too: *annie or *jack too... 
+
+<hr>
+
