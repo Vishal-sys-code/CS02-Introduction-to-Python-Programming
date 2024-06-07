@@ -3,7 +3,7 @@ The "inner Loop" will finish all of its iteration before finishing one iteration
 
 **Example :**
 ```py
-row = int(input("Enter the Rows: ""))
+row = int(input("Enter the Rows :"))
 cols = int(input("Enter the Columns :"))
 symbol = input("Enter the symbol :")
 
