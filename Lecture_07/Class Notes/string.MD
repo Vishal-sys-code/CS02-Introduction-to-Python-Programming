@@ -76,3 +76,9 @@ try:
 except IndexError:
     print("Invalid Index")
 ```
+
+**Negative Indexing Code :**
+
+```py
+
+```
