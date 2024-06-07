@@ -17,5 +17,33 @@ type(str_2)
 ```
 
 ```py
+# Creating string with a single quotes
+string1 = 'Welcome to the Cambridge University'
+print("String with the use of Single Quotes: ")
+print(string1)
 
+string2 = "I'm a Professor"
+print("\nString with the use of Double Quotes: ")
+print(string2)
+
+string3 = '''I'm a part-time professor who comes to show the world of computer science'''
+print("\nString with the use of the Triple Quotes: ")
+print(string3)
+
+string4 = '''I am 
+            a Machine Learning Engineer
+            and your mentor'''
+print("\nCreating a multiline String: ")
+print(string4)
 ```
+
+## **Accessing characters in Python String**
+
+The individual characters of a String can be accessed by using the method of Indexing. Indexing allows negative address references to access characters from the back of the String, e.g. -1 refers to the last character, -2 refers to the second last character, and so on. 
+
+```sh
+C A M B R I D G E
+0 1 2 3 4 5 6 7 8
+9 8 7 6 5 4 3 2 1 [all are in negative: -9,-8,-7,-6,-5,-4,-3,-2,-1]
+```
+
