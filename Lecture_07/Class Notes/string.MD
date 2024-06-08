@@ -36,6 +36,7 @@ string4 = '''I am
 print("\nCreating a multiline String: ")
 print(string4)
 ```
+<hr>
 
 ## **Accessing characters in Python String**
 
@@ -108,8 +109,9 @@ try:
 except IndexError:
     print("Invalid Index")
 ```
+<hr>
 
-# **String Slicing**
+## **String Slicing**
 The method is used to access a range of character in the string. Slicing in a string is done by using a slicing operator i.e. a colon(`:`).
 To be honest, it creates a substring by extracting elements from another string indexing ir slicing.
 
@@ -176,4 +178,10 @@ funky_name_3 = name[0:8:3]
 print("funky_name_1: " + funky_name_1)
 print("funky_name_2: " + funky_name_2)
 print("funky_name_3: " + funky_name_3)
+```
+<hr>
+
+## **Reverse the String**
+
+```py
 ```
