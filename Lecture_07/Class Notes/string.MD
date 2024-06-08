@@ -109,3 +109,44 @@ except IndexError:
     print("Invalid Index")
 ```
 
+# **String Slicing**
+The method is used to access a range of character in the string. Slicing in a string is done by using a slicing operator i.e. a colon(`:`).
+To be honest, it creates a substring by extracting elements from another string indexing ir slicing.
+
+```sh
+INDEXING: [start : stop : step]
+```
+**Example:**
+```py
+name = "Lana Del Ray"
+
+first_name = name[0]
+print(first_name)
+
+first_name_i1 = name[0:1]
+first_name_i2 = name[0:2]
+first_name_i3 = name[0:3]
+first_name_i4 = name[0:4]
+first_name_i5 = name[0:5]
+first_name_i6 = name[0:6]
+first_name_i7 = name[0:7]
+first_name_i8 = name[0:8]
+first_name_i9 = name[0:9]
+first_name_i10 = name[0:10]
+first_name_i11 = name[0:11]
+first_name_i12 = name[0:12]
+
+print("---- Indexing: ----")
+print("first_name_i1: " + first_name_i1)
+print("first_name_i2: " + first_name_i2)
+print("first_name_i3: " + first_name_i3)
+print("first_name_i4: " + first_name_i4)
+print("first_name_i5: " + first_name_i5)
+print("first_name_i6: " + first_name_i6)
+print("first_name_i7: " + first_name_i7)
+print("first_name_i8: " + first_name_i8)
+print("first_name_i9: " + first_name_i9)
+print("first_name_i10: " + first_name_i10)
+print("first_name_i11: " + first_name_i11)
+print("first_name_i12: " + first_name_i12)
+```
