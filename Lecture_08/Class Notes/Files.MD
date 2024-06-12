@@ -13,11 +13,3 @@ File handling in python is very powerful adn versatile tool that can be used to 
 * Security risk
 * Complexity
 * Performance
-
-We will create an text file and for the whole lecture we will follow this.
-
-```bash
-touch file.txt
-```
-
-The above command will make an empty text file.
