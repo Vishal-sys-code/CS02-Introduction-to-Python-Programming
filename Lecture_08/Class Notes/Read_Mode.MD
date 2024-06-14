@@ -1,5 +1,7 @@
 # **Working in Read Mode**
 
+**File Handling: Read Mode...**
+
 **Example 1:**
 
 The open command will open the py file in the read mode and the for loop will print each line present in the file
