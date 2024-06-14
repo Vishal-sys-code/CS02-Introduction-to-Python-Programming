@@ -2,11 +2,11 @@
 
 **File Handling: Read Mode...**
 
-There is a file called `file.txt` that have the contents of:
-`file.txt`
+There is a file called `read_mode_file.txt` that have the contents of:
+`read_mode_file.txt`
 ```bash
 Hi,
-My name is: file.txt
+My name is: read_mode_file.txt
 I am created before the creation of the py file.
 ```
 
@@ -16,8 +16,8 @@ The open command will open the py file in the read mode and the for loop will pr
 
 ```py
 import os
-# The file "file.txt", will be opened with the reading mode
-file = open('file.txt', 'r')
+# The file "read_mode_file.txt", will be opened with the reading mode
+file = open('read_mode_file.txt', 'r')
 
 # Printing each line one by one in the file
 for each in file:
@@ -31,7 +31,7 @@ for each in file:
 We will extract a string that contains all characters in the python file then we can use **`file.read()`**
 
 ```py
-file = open("file.txt", "r")
+file = open("read_mode_file.txt", "r")
 print(file.read())
 ```
 
@@ -41,7 +41,7 @@ print(file.read())
 We can read a file using the `with` statement
 
 ```py
-with open("file.txt") as file:
+with open("read_mode_file.txt") as file:
     data = file.read()
 
 print(data)
@@ -53,7 +53,7 @@ print(data)
 We can call the certain number of characters from the file
 
 ```py
-file = open("geeks.txt", "r")
+file = open("read_mode_file.txt", "r")
 print (file.read(5))
 ```
 
@@ -64,18 +64,18 @@ print (file.read(5))
 --- Example 1 ---
 Hi,
 
-My name is: file.txt
+My name is: read_mode_file.txt
 
 I am created before the creation of the py file.
 
 --- Example 2 ---
 Hi,
-My name is: file.txt
+My name is: read_mode_file.txt
 I am created before the creation of the py file.
 
 --- Example 3 ---
 Hi,
-My name is: file.txt
+My name is: read_mode_file.txt
 I am created before the creation of the py file.
 
 --- Example 4 ---
