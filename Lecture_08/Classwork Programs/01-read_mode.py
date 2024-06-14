@@ -18,3 +18,8 @@ print("--- Example 3 ---")
 with open("file.txt") as file:  
     data = file.read() 
 print(data)
+
+print()
+print("--- Example 4 ---")
+file = open('file.txt','r')
+print(file.read(5))
