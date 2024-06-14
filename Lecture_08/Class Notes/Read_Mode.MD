@@ -2,6 +2,14 @@
 
 **File Handling: Read Mode...**
 
+There is a file called `file.txt` that have the contents of:
+`file.txt`
+```bash
+Hi,
+My name is: file.txt
+I am created before the creation of the py file.
+```
+
 **Example 1:**
 
 The open command will open the py file in the read mode and the for loop will print each line present in the file
@@ -47,4 +55,30 @@ We can call the certain number of characters from the file
 ```py
 file = open("geeks.txt", "r")
 print (file.read(5))
+```
+
+**Output of all the examples:**
+
+```bash
+------ File opening in Reading mode ------
+--- Example 1 ---
+Hi,
+
+My name is: file.txt
+
+I am created before the creation of the py file.
+
+--- Example 2 ---
+Hi,
+My name is: file.txt
+I am created before the creation of the py file.
+
+--- Example 3 ---
+Hi,
+My name is: file.txt
+I am created before the creation of the py file.
+
+--- Example 4 ---
+Hi,
+M
 ```
