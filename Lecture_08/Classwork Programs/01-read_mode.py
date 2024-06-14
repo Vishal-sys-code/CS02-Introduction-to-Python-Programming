@@ -1,7 +1,20 @@
 import os
-# The file "file.txt", will be opened with the reading mode
-file = open('file.txt', 'r')
 
+print("------ File opening in Reading mode ------")
+# The file "file.txt", will be opened with the reading mode
+print("--- Example 1 ---")
+file = open('file.txt', 'r')
 # Printing each line one by one in the file
 for each in file:
     print(each)
+
+print()
+print("--- Example 2 ---")
+file = open('file.txt', 'r')
+print(file.read())
+
+print()
+print("--- Example 3 ---")
+with open("file.txt") as file:  
+    data = file.read() 
+print(data)
