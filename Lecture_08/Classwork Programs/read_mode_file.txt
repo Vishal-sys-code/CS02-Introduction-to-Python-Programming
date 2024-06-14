@@ -1,3 +1,3 @@
 Hi,
-My name is: file.txt
+My name is: read_mode_file.txt
 I am created before the creation of the py file.
