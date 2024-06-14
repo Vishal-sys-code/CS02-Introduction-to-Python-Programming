@@ -38,3 +38,11 @@ print(data)
 ```
 
 <hr>
+
+**Example 4:**
+We can call the certain number of characters from the file
+
+```py
+file = open("geeks.txt", "r")
+print (file.read(5))
+```
