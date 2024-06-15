@@ -8,4 +8,3 @@ file.write("It allows us to write in a particular file")
 file.close()
 
 # Example - 2
-gg
