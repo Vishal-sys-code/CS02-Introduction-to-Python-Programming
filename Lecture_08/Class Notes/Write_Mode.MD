@@ -13,3 +13,8 @@ file.write("It allows us to write in a particular file")
 file.close()
 ```
 
+**Example 2:**
+The written statement along with the `with()` statement.
+```py
+
+```
