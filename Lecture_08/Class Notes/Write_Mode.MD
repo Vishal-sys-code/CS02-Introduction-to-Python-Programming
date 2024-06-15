@@ -13,8 +13,20 @@ file.write("It allows us to write in a particular file")
 file.close()
 ```
 
+<hr>
+
 **Example 2:**
 The written statement along with the `with()` statement.
 ```py
+with open('write_mode_file.txt','w') as f:
+    f.write("Hi, I am written statement along with the with() method or statement")
+```
 
+<hr>
+
+**Output of the above programs:**
+
+```bash
+Hi, This is the write commandNice to meet youIt allows us to write in a particular file
+Hi, I am written statement along with the with() method or statement
 ```
