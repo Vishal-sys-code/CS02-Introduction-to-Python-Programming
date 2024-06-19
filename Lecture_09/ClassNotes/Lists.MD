@@ -17,7 +17,7 @@ List are simple containers that are an intefral part of the python. A single lis
 ```py
 list = []
 print("Blank List: ")
-print(list)g
+print(list)
 
 list = [10, 11, 12]
 print("List Containing Numbers: ")
