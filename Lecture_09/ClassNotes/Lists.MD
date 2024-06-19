@@ -32,4 +32,6 @@ The complexities of the above code are:
 * Time Complexity: `O(1)`
 * Space Complexity: `O(N)`
 
-`
+**Example 2: Creating a List with distinct or duplicate elements**
+A list can contain duplicate values with their distinct positions and hence multiple distinct or duplicate values can be passes as a sequence at the time of list creation.
+
