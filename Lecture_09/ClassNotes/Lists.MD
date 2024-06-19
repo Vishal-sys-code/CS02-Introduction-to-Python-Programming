@@ -13,7 +13,7 @@ print(var)
 
 List are simple containers that are an intefral part of the python. A single list may contain datatypes like: Integers, Strings, as well as objects. List are mutable and hence they can be altered even after their creation.
 
-**Example: Creating a basic list**
+**Example1 : Creating a basic list**
 ```py
 list = []
 print("Blank List: ")
@@ -27,3 +27,9 @@ print("Stanford", "University")
 print("List Containing Strings: ")
 print(list)
 ```
+
+The complexities of the above code are: 
+* Time Complexity: `O(1)`
+* Space Complexity: `O(N)`
+
+`
