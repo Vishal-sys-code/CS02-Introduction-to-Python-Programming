@@ -58,3 +58,7 @@ print(list[-3])
 print("\nDisplaying the Length of the List: ")
 print(len(list))
 ```
+
+**Example 3: Taking an input from the user in list**
+```py
+```
