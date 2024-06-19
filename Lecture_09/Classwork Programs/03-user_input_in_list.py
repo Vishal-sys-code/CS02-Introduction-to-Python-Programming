@@ -34,3 +34,10 @@ for i in range(1,4):
 
 list2 = ["Fydor", "Dostoevsky"]
 list.append(list2) # Adding list in a list
+
+# Using the built-in function insert()
+list = [1,2,3,4]
+print(list)
+list.insert(3,12)
+list.insert(0,"State")
+print(list)
