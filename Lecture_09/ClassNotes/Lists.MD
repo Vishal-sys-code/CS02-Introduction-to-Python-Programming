@@ -13,8 +13,6 @@ print(var)
 
 List are simple containers that are an intefral part of the python. A single list may contain datatypes like: Integers, Strings, as well as objects. List are mutable and hence they can be altered even after their creation.
 
-<hr>
-
 **Example 1 : Creating a basic list**
 ```py
 list = []
@@ -34,7 +32,6 @@ The complexities of the above code are:
 * Time Complexity: `O(1)`
 * Space Complexity: `O(N)`
 
-<hr>
 
 **Example 2: Creating a List with distinct or duplicate elements**
 A list can contain duplicate values with their distinct positions and hence multiple distinct or duplicate values can be passes as a sequence at the time of list creation.
@@ -62,8 +59,6 @@ print(list[-3])
 print("\nDisplaying the Length of the List: ")
 print(len(list))
 ```
-
-<hr>
 
 **Example 3: Taking an input from the user in list**
 ```py
@@ -93,8 +88,6 @@ for i in range(0,n):
     lst.append(element)
 print(lst)
 ```
-
-<hr>
 
 There are two in-built functions through which we can insert the elements at the end of the list, the functions are:- `append()` and `extend()`
 
@@ -135,5 +128,3 @@ print(list1)
 * **Output:** `[1,2,3,4,"Genie"]`
 * **Time Complexity**: `O(N)`
 * **Space Complexity**: `O(1)`
-
-<hr>
