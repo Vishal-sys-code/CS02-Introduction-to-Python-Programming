@@ -15,7 +15,7 @@ List are simple containers that are an intefral part of the python. A single lis
 
 <hr>
 
-**Example1 : Creating a basic list**
+**Example 1 : Creating a basic list**
 ```py
 list = []
 print("Blank List: ")
@@ -119,3 +119,21 @@ list.insert(3,12)
 list.insert(0,"State")
 print(list)
 ```
+
+The `append()` method addes up the element in the end of the list, where as the `insert()` method adds up the element at the any position of the list or adds the element at the desired position of the list.
+
+
+Now we have another method which is: `extend()` it is the same as the `append()` method.
+
+```py
+list = []
+list1 = [1,2,3,4]
+list1.extend("Genie")
+print(list1)
+```
+
+* **Output:** `[1,2,3,4,"Genie"]`
+* **Time Complexity**: `O(N)`
+* **Space Complexity**: `O(1)`
+
+<hr>
