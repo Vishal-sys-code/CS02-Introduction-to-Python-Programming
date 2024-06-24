@@ -144,5 +144,7 @@ print(mylist)
 **Example 2: Using reversed() functions**
 The `reversed()` function returns a reverse iterator, which can be converted to a lost using the `list()` function.
 ```py
-
+mylist = [1,2,3,4,5]
+reversed_list = list(reversed(mylist))
+print(reversed_list)
 ```
