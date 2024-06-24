@@ -153,3 +153,8 @@ print(reversed_list)
 
 **Method 1: Using remove() method**
 Elements can be removed from the list by using the built-in function `remove()` function but an Error arises if the element doesn't exist in the list.
+
+Remove() method only removes one element at a time, to remove a range of elements, the iterator is used. The `remove()` method removes the specified item.
+
+**NOTE :** Remove method in List will only remove the first occurence of the searched element.
+
