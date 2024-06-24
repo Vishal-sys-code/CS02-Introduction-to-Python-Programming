@@ -133,7 +133,7 @@ print(list1)
 
 ## **Reversing the List**
 
-**Using reverse() method**
+**Example 1: Using reverse() method**
 
 ```py
 mylist = [1,2,3,4,5,'Meta', 'Microsoft']
