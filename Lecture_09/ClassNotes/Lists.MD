@@ -158,3 +158,25 @@ Remove() method only removes one element at a time, to remove a range of element
 
 **NOTE :** Remove method in List will only remove the first occurence of the searched element.
 
+```py
+print("------- Method 1: Using remove() method -------")
+list = [1,2,3,4,5,6,7,8,9,10]
+print("Initial List: ")
+print(list)
+list.remove(5)
+list.remove(3)
+print("\nList after removing two elements: ")
+print(list)
+
+list1 = [1,2,3,4,5,6,7,8,9,10,11,12]
+print("Initial List: ")
+print(list1)
+for i in range(1,5):
+    list1.remove(i)
+print("\nList after removing two elements: ")
+print(list1)
+```
+The complexityies for deleting elements in a list using `remove()` method.
+* **Time Complexity :** `O(N)`
+* **Space Complexity :** `O(1)`
+
