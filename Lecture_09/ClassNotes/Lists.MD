@@ -89,6 +89,8 @@ for i in range(0,n):
 print(lst)
 ```
 
+## **Adding Elements to a Python List**
+
 There are two in-built functions through which we can insert the elements at the end of the list, the functions are:- `append()` and `extend()`
 
 * **Using the built-in function append()**
@@ -128,3 +130,13 @@ print(list1)
 * **Output:** `[1,2,3,4,"Genie"]`
 * **Time Complexity**: `O(N)`
 * **Space Complexity**: `O(1)`
+
+## **Reversing the List**
+
+**Using reverse() method**
+
+```py
+mylist = [1,2,3,4,5.'Meta', 'Microsoft']
+mylist.reverse()
+print(mylist)
+```g
