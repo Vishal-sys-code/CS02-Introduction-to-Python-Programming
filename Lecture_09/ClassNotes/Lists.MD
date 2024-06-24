@@ -140,3 +140,9 @@ mylist = [1,2,3,4,5,'Meta', 'Microsoft']
 mylist.reverse()
 print(mylist)
 ```
+
+**Example 2: Using reversed() functions**
+The `reversed()` function returns a reverse iterator, which can be converted to a lost using the `list()` function.
+```py
+
+```
