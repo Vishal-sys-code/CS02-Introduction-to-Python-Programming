@@ -148,3 +148,8 @@ mylist = [1,2,3,4,5]
 reversed_list = list(reversed(mylist))
 print(reversed_list)
 ```
+
+## **Removing elements from the List**
+
+**Method 1: Using remove() method**
+Elements can be removed from the list by using the built-in function `remove()` function but an Error arises if the element doesn't exist in the list.
