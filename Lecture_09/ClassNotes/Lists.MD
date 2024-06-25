@@ -176,10 +176,23 @@ for i in range(1,5):
 print("\nList after removing two elements: ")
 print(list1)
 ```
-The complexityies for deleting elements in a list using `remove()` method.
+The complexities for deleting elements in a list using `remove()` method.
 * **Time Complexity :** `O(N)`
 * **Space Complexity :** `O(1)`
 
 **Method 1: Using pop() method**
 The `pop()` function can also be used to remove and return an element from the lost, but by defaults ***it removes the last element of the list***, to remove an element from a specific position of the list. 
 The index is passed as an argument to the pop() method.
+
+```py
+print("------- Method 2: Using pop() method -------")
+list2 = [1,2,3,4,5,6,7,8,9,10]
+print("List before popping: ")
+print(list2)
+list2.pop()
+print("\nList after popping: ")
+print(list2)
+```
+The complexities for deleting elements in a list using `pop()` method.
+* **Time Complexitiy :** `O(1)/O(N)` [`O(1)` for removing the last element, `O(N)` for removing the first and middle elements]
+* **Space Complexity :** `O(1)`
