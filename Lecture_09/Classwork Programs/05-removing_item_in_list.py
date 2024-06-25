@@ -16,4 +16,10 @@ print("\nList after removing two elements: ")
 print(list1)
 
 print("-----------------------------------------------")
-print("")
+print("------- Method 2: Using pop() method -------")
+list2 = [1,2,3,4,5,6,7,8,9,10]
+print("List before popping: ")
+print(list2)
+list2.pop()
+print("\nList after popping: ")
+print(list2)
