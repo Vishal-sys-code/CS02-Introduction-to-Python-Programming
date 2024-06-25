@@ -180,3 +180,6 @@ The complexityies for deleting elements in a list using `remove()` method.
 * **Time Complexity :** `O(N)`
 * **Space Complexity :** `O(1)`
 
+**Method 1: Using pop() method**
+The `pop()` function can also be used to remove and return an element from the lost, but by defaults ***it removes the last element of the list***, to remove an element from a specific position of the list. 
+The index is passed as an argument to the pop() method.
