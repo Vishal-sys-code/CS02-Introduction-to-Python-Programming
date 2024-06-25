@@ -196,3 +196,12 @@ print(list2)
 The complexities for deleting elements in a list using `pop()` method.
 * **Time Complexitiy :** `O(1)/O(N)` [`O(1)` for removing the last element, `O(N)` for removing the first and middle elements]
 * **Space Complexity :** `O(1)`
+
+## **Slicing of the List**
+We can get the substrings and sublists using slice. There are multiple ways to print the whole list with all the elements, but a specific range of elements from the list we use the slice operation.
+
+* To print elements from beginning to a range, use: `[:index]`
+* To print elements from beginning to negative range, use: `[:-index]`
+* To print elements from a specific index till the end, use: `[index: ]`
+* To print elements from a specific negative index till the end, use: `[-index: ]`
+* To print the whole list in reverse order, use: `[::-1]`
