@@ -252,3 +252,11 @@ print(sliced_list_5)
 | **reverse()**             | Reverse the order of items in the list                                                                             |
 | **copy()**                | Returns a copy of the list                                                                                         |
 | **pop()**                 | Removes and returns the item at the specified index. If no index is provided, it removes and returns the last item.|
+
+## **FAQs**
+
+Lists are used in Python to store collections of items, such as numbers, strings, or other objects. They are commonly used for:
+* Storing and manipulating sequences of data.
+* Aggregating items to iterate over them.
+* Collecting multiple items as a single variable.
+* Data manipulation and analysis.
