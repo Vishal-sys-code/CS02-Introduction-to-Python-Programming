@@ -139,3 +139,9 @@ There is also a method called `get()` that will also help in accessing the eleme
 The complexities are:
 * **Time Complexity:** `O(1)`
 * **Space Complexity:** `O(1)`
+
+The `get()` method retrieves they key.
+
+```py
+
+```
