@@ -42,5 +42,18 @@ dict = {
 A dictionary can also be created by the built-in function `dict()`. An empty dictionary can be created by just placing curly braces.
 
 ```py
-
+dict_2 = {}
+print("Empty Dictionary")
+print(dict_2)
+dict_3 = dict({1:'Geeks', 2:'Nerds', 3:'Introverts'})
+print("\n Dictionary with the use of the dict(): ")
+print(dict_3)
+dict_4 = dict([(1,'Geeks'), (2, 'Nerds'), (3, 'Introverts')])
+print("\nDictionary with each item as a pair: ")
+print(dict_4)
 ```
+
+The complexities are:
+* **Time Complexity:** `O(len(dict))`
+* **Space Complexity:** `O(N)`
+
