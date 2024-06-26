@@ -122,5 +122,20 @@ The complexities are:
 ## **Accessing Element in Dictionary**
 
 ```py
+dict = {
+    1:'Geeks',
+    'name': 'GH',
+    3:'Hardy'
+}
 
+print("\nAccessing element using key")
+print(dict['name'])
+print("\nAccessing a element using key")
+print(dict[1])
 ```
+
+There is also a method called `get()` that will also help in accessing the element from a dictionary. This method accepts key as arguments and returns the value.
+
+The complexities are:
+* **Time Complexity:** `O(1)`
+* **Space Complexity:** `O(1)`
