@@ -84,7 +84,7 @@ print(dict_2)
 print(dict_3)
 ```
 
-## Adding elements to a Dictionary
+## **Adding elements to a Dictionary**
 The addition of elements can be done in multiple ways. One value at a time can be added to a dictionary by defining value along with the key.
 **eg:** dict[key] = 'value'
 
@@ -114,3 +114,9 @@ dict[5] = {'Nested':{1:'Life', 2:'Introverts'}}
 print("\n Adding a Nested Key")
 print(dict)
 ```
+
+The complexities are:
+* **Time Complexity:** `O(1)/O(N)`
+* **Space Complexity:** `O(1)`
+
+## **Accessing Element in Dictionary**
