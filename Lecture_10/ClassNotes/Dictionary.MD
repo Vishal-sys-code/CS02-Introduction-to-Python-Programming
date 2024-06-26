@@ -143,5 +143,15 @@ The complexities are:
 The `get()` method retrieves they key.
 
 ```py
+# Using get() method
 
+dict = {
+    1: 'Andrew',
+    2:'Huberman',
+    3:'Podcasts'
+}
+print("\nAccessing element using key")
+print(dict.get(2))
 ```
+
+## **Accessing a Nested Dictionary**
