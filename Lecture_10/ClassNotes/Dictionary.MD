@@ -38,3 +38,9 @@ dict = {
     1: [1,2,3,4,5,6]
 }
 ```
+
+A dictionary can also be created by the built-in function `dict()`. An empty dictionary can be created by just placing curly braces.
+
+```py
+
+```
