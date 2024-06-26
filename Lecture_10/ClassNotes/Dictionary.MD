@@ -155,3 +155,25 @@ print(dict.get(2))
 ```
 
 ## **Accessing a Nested Dictionary**
+
+```py
+# Accessing a Nested Dictionary
+dict = {
+    'dict1':{
+        1: 'Vishal'
+    },
+    'dict2':{
+        'Name':'Stanford'
+    }
+}
+print("\n----- Accessing element in Nested Dictionary -----")
+print(dict['dict1'])
+print(dict['dict1'][1])
+print(dict['dict2']['Name'])
+print(dict['dict2'][2])
+```
+
+## **Deleting elments using 'del' keyword**
+
+```py
+```
