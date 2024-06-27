@@ -51,5 +51,29 @@ Tuples are immutable and ordered and allow duplicate values. Some characteristic
 * We cannot remove items from a tuple once it is created.
 
 ```py
+my_tuple = (1,2,3,4,5)
+print(my_tuple)
+print(my_tuple[1])
+print(my_tuple[4])
 
+my_tuple = (1,2,3,4,2,3)
+print(my_tuple)
+my_tuple[1] = 10000
+print(my_tuple)
 ```
+
+The output of the above syntax is:
+```bash
+(1, 2, 3, 4, 5)
+2
+5
+(1, 2, 3, 4, 2, 3)
+Traceback (most recent call last):
+    line 8, in <module>
+    my_tuple[1] = 10000
+TypeError: 'tuple' object does not support item assignment
+```
+
+Hence, it is immutable or unchangeable.
+
+**NOTE:** For accessing tuples, we have indexing
