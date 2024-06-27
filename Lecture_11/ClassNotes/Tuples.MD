@@ -40,5 +40,16 @@ print(type(mytuple)) #<class 'str'>
 To create a tuple with a tuple constructor, we will pass the elements as its parameter.
 
 ```py
+tuple_constructor = tuple(("Data Structures", "Algorithms", "Development", "Machine Learning"))
+print(tuple_constructor)
+print(type(tuple_constructor))
+```
+
+**What is immutable type in Python tuples?**
+Tuples are immutable and ordered and allow duplicate values. Some characteristics of tuples in python:
+* Tuples cannot be appended or extended.
+* We cannot remove items from a tuple once it is created.
+
+```py
 
 ```
