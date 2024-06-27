@@ -77,3 +77,14 @@ TypeError: 'tuple' object does not support item assignment
 Hence, it is immutable or unchangeable.
 
 **NOTE:** For accessing tuples, we have indexing
+
+## Different types of Operations Related to Tuples
+* Concatenation
+* Nesting
+* Repetition
+* Slicing
+* Deletion
+* Finding the length
+* Multiple datatypes with Tuples
+* Conversion of list to tuples
+* Tuples in a loop
