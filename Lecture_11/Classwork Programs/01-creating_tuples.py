@@ -8,3 +8,8 @@ mytuple = ("Advertisement",)
 print(type(mytuple))
 mytuple = ("Advertisement")
 print(type(mytuple))
+
+# Creating Tuple using Tuple Constructor
+tuple_constructor = tuple(("Data Structures", "Algorithms", "Development", "Machine Learning"))
+print(tuple_constructor)
+print(type(tuple_constructor))
