@@ -35,3 +35,10 @@ print(type(mytuple)) #<class 'tuple'>
 mytuple = ("Advertisement")
 print(type(mytuple)) #<class 'str'>
 ```
+
+## Creating Tuple using Tuple Constructor
+To create a tuple with a tuple constructor, we will pass the elements as its parameter.
+
+```py
+
+```
