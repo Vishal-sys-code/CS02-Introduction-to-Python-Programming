@@ -15,4 +15,3 @@ Lecture 14: 	Network Programming
 Lecture 15: 	Web-Services
 Lecture 16: 	Py Database
 Lecture 17: 	Advanced Python
-
