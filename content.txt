@@ -7,11 +7,8 @@ Lecture 6: 	    Loops and iterations
 Lecture 7: 	    Strings
 Lecture 8: 	    Files
 Lecture 9: 	    List
-Lecture 10: 	Tuples
-Lecture 11: 	Dictionary
-Lecture 12: 	Regex
-Lecture 13: 	Object Oriented Programming
-Lecture 14: 	Network Programming
-Lecture 15: 	Web-Services
-Lecture 16: 	Py Database
-Lecture 17: 	Advanced Python
+Lecture 10: 	Dictionary
+Lecture 11: 	Tuples
+Lecture 12: 	Sets 
+Lecture 13:     Object Oriented Programming
+Lecture 14:     Regular Expressions
