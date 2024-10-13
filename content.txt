@@ -5,10 +5,22 @@ Lecture 4: 	    Conditional Execution
 Lecture 5: 	    Functions
 Lecture 6: 	    Loops and iterations
 Lecture 7: 	    Strings
-Lecture 8: 	    Files
+Lecture 8: 	    File Handling
 Lecture 9: 	    List
 Lecture 10: 	Dictionary
 Lecture 11: 	Tuples
-Lecture 12: 	Sets 
-Lecture 13:     Object Oriented Programming
-Lecture 14:     Regular Expressions
+Lecture 12: 	Sets
+Lecture 13:     Exception Handling
+Lecture 14:     Threads
+Lecture 15:     Object Oriented Programming
+Lecture 16:     Regular Expressions
+
+Recitation 01:  Important Questions on Python
+
+
+Variable Scopes => 3
+String Format => 7
+Random Module => 13
+Exception Handling => 13
+Threads => 14
+Important Questions of Python = Recitation
