@@ -12,13 +12,12 @@ Lecture 11: 	Tuples
 Lecture 12: 	Sets
 Lecture 13:     Exception Handling
 Lecture 14:     Threads
-Lecture 15:     Object Oriented Programming
-Lecture 16:     Regular Expressions
+Lecture 15:     Regular Expressions
+Lecture 16:     Object Oriented Programming
 
 Recitation 01:  Important Questions on Python
 
 
 Variable Scopes => 3
 String Format => 7
-Threads => 14
 Important Questions of Python = Recitation
