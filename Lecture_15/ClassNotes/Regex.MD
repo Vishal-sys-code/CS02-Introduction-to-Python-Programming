@@ -98,7 +98,6 @@ print("Replaced string:", new_string)  # Output: I have bananas and oranges.
 ```py
 import re
 
-# Sample text for demonstration
 text = """I love cats and dogs.
 My email is test@example.com.
 The price of apples is $3 and oranges is $2.
