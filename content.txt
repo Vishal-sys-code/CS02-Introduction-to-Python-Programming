@@ -20,7 +20,5 @@ Recitation 01:  Important Questions on Python
 
 Variable Scopes => 3
 String Format => 7
-Random Module => 13
-Exception Handling => 13
 Threads => 14
 Important Questions of Python = Recitation
