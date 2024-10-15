@@ -93,6 +93,7 @@ The course is structured into 16 lectures covering a wide range of topics:
 - **Books**: 
   - *Automate the Boring Stuff with Python* by Al Sweigart
   - *Python Crash Course* by Eric Matthes
+  - *Introduction to Computation and Programming Using Python, second edition* by John V. Guttag 
 - **Online Resources**: 
   - [W3Schools Python Tutorial](https://www.w3schools.com/python/)
   - [Real Python](https://realpython.com/)
@@ -101,6 +102,6 @@ The course is structured into 16 lectures covering a wide range of topics:
 
 We are excited to embark on this journey of learning Python with you! This course will equip you with the skills needed to tackle programming challenges and open doors to various opportunities in the tech industry. 
 
-If you have any questions or need assistance, feel free to reach out during office hours or through the course discussion forum.
+If you have any questions or need assistance, feel free to reach out during office hours or through the course discussion forum or email me at [pandeyvishal.mlprof@gmail.com](mailto:pandeyvishal.mlprof@gmail.com).
 
 Happy Coding!
