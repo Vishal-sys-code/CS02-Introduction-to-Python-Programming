@@ -1,3 +1,7 @@
+# String Format 
+Optional method that gives users more control when displaying output.
+
+```py
 animal = "Elephant"
 item = "Jupiter"
 print("The " + animal + " jumped over the " + item)
@@ -36,3 +40,25 @@ print("The number is: {:,}".format(number1))
 print("The number is: {:b}".format(number1))
 print("The number is: {:x}".format(number1))
 print("The number is: {:o}".format(number1))
+
+"""
+Output:
+The Elephant jumped over the Jupiter
+The Doraemon jumped over the Rat
+The Elephant jumped over the Jupiter
+The Elephant jumped over the Jupiter
+The Doraemon jumped over the Rat
+The Elephant jumped over the Jupiter
+Hello, my name is Vayishu
+Hello, my name is Vayishu   . Nice to meet you
+Hello, my name is Vayishu   . Nice to meet you
+Hello, my name is    Vayishu. Nice to meet you
+Hello, my name is  Vayishu  . Nice to meet you
+The number PI is: 3.14159
+The number PI is: 3.142
+The number is: 1,000
+The number is: 1111101000
+The number is: 3e8
+The number is: 1750
+"""
+```
