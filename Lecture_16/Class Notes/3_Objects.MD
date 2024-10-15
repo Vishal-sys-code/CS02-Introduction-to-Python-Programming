@@ -108,3 +108,5 @@ class myClass:
         # Method definitions
         pass
 ```
+
+`Example-1` and `Example-2` are in the folder of the ClassWork Programs and into the folder of the Classes and Objects.
