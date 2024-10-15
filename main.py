@@ -1,38 +1,17 @@
-animal = "Elephant"
-item = "Jupiter"
-print("The " + animal + " jumped over the " + item)
+class Dog:
+    animal = 'dog'
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+    def setColor(self, color):
+        self.color = color
+    def getDetails(self):
+        print("I have my pet and his name is " + self.name + " and he belongs to the breed of " + self.breed)
+    def getColor(self):
+        return self.color
 
-print("The {} jumped over the {}".format("Doraemon", "Rat"))
-print("The {} jumped over the {}".format(animal, item))
-
-# positional argument
-print("The {0} jumped over the {1}".format(animal, item))
-
-# keyword argument
-print("The {animal} jumped over the {item}".format(animal = "Doraemon", item = "Rat"))
-
-text = "The {} jumped over the {}"
-print(text.format(animal,item))
-
-###########################################################
-
-name = "Vayishu"
-print("Hello, my name is {}".format(name))
-print("Hello, my name is {:10}. Nice to meet you". format(name))
-print("Hello, my name is {:<10}. Nice to meet you". format(name))
-print("Hello, my name is {:>10}. Nice to meet you". format(name))
-print("Hello, my name is {:^10}. Nice to meet you". format(name))
-
-###########################################################
-
-number = 3.14159
-print("The number PI is: {}". format(number))
-print("The number PI is: {:.3f}". format(number))
-
-###########################################################
-
-number1 = 1000
-print("The number is: {:,}".format(number1))
-print("The number is: {:b}".format(number1))
-print("The number is: {:x}".format(number1))
-print("The number is: {:o}".format(number1))
+petDog = Dog("Jimmy", "Pug")
+petDog.setColor("White")
+petDog.getDetails()
+color = petDog.getColor()
+print("Color: ", color)
