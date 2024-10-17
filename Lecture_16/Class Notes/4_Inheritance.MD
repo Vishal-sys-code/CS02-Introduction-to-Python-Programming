@@ -69,6 +69,26 @@ True
 * **Hierarchial Inheritance :** More than one derived class can be created from a single base.
 * **Hybrid Inheritance :** This forms combines more than one form if inheritance. Basically, it is a blend of more than one type of inheritance.
 
+## **Single Inheritance**
+
+```py
+# Base class
+class Animal:
+    def speak(self):
+        return "The animal makes a sound."
+
+# Derived class
+class Dog(Animal):
+    def speak(self):
+        return "The dog barks."
+
+# Create an instance of the Dog class
+my_dog = Dog()
+
+# Call the speak method
+print(my_dog.speak())  # Output: The dog barks.
+```
+
 ## **Multiple Inheritance**
 ```py
 # When a child class inherits from multiple parent classes, it is called Multiple Inheritance.
@@ -137,6 +157,71 @@ Age: 23
 Address: Boston 
 """
 ```
+
+## **Hierarchial Inheritance**
+
+```py
+# Base class
+class Animal:
+    def speak(self):
+        return "The animal makes a sound."
+
+# Derived class 1
+class Dog(Animal):
+    def speak(self):
+        return "The dog barks."
+
+# Derived class 2
+class Cat(Animal):
+    def speak(self):
+        return "The cat meows."
+
+# Derived class 3
+class Cow(Animal):
+    def speak(self):
+        return "The cow moos."
+
+# Create instances of the derived classes
+my_dog = Dog()
+my_cat = Cat()
+my_cow = Cow()
+
+# Call the speak method for each instance
+print(my_dog.speak())  # Output: The dog barks.
+print(my_cat.speak())  # Output: The cat meows.
+print(my_cow.speak())  # Output: The cow moos.
+```
+
+## **Hybrid Inheritance**
+
+```py
+# Base class
+class Animal:
+    def speak(self):
+        return "The animal makes a sound."
+
+# Derived class 1
+class Dog(Animal):
+    def speak(self):
+        return "The dog barks."
+
+# Derived class 2
+class Cat(Animal):
+    def speak(self):
+        return "The cat meows."
+
+# Derived class 3 (inherits from Dog and Cat)
+class HybridAnimal(Dog, Cat):
+    def hybrid_speak(self):
+        return f"{self.speak()} and {Cat.speak(self)}"
+
+# Create an instance of the HybridAnimal class
+my_hybrid = HybridAnimal()
+
+# Call the methods
+print(my_hybrid.hybrid_speak())  # Output: The dog barks. and The cat meows.
+```
+
 
 ## **Method Chaining**
 Calling multiple methods automatically each call performs an actions on the same object and returns self.
