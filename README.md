@@ -78,6 +78,9 @@ The course is structured into 16 lectures covering a wide range of topics:
     - Understanding the principles of OOP in Python.
     - Class and Objects, 4 Pillars of OOPS [Inheritance, Polymorphism, Encapsulation, Abstraction]
 
+17. **Some Important Topics**
+   - Object as an argument, duck typing, Walrus operator, Higher Order Functions, Lambda functions, `sort`, `map`, `reduce`, `filter`, Dictionary and List Comprehension, Zip Functions, `if __name__ = '__main__'`.
+
 ### Recitation
 
 - **Recitation 01**: Important Questions on Python
