@@ -1,30 +1,31 @@
-class Rectangle:
-    def __init__(self,length,width):
-        self.length = length
-        self.width = width
+class Car:
+    name = None
+class motorCycle:
+    name = None
+def changeColor(Car, name):
+    car.name = name
+def changeColor(motorCycle, name):
+    motorCycle.name = name
 
-class Square(Rectangle):
-    def __init__(self,length,width):
-        super().__init__(length,width)
-    def area(self):
-        return self.length * self.width
+car_1 = Car()
+car_2 = Car()
+car_3 = Car()
+changeColor(car_1, "Lamborghini")
+changeColor(car_2, "Ferrari")
+changeColor(car_3, "McLaren")
 
-class Cube(Rectangle):
-    def __init__(self,length, width, height):
-        super().__init__(length, width)
-        self.height = height
-    def volume(self):
-        return self.length * self.width * self.width
+bike_1 = motorCycle()
+bike_2 = motorCycle()
+bike_3 = motorCycle()
+changeColor(bike_1, "Duccati")
+changeColor(bike_2, "Hayabusa")
+changeColor(bike_3, "Himalayan Bullet")
 
-square_obj = Square(3,3)
-cube_obj = Cube(3,3,3)
-a = square_obj.area()
-b = cube_obj.volume()
-print(a)
-print(b)
-
-"""
-Output:
-9 
-27
-"""
+print("Car Details: ")
+print(car_1.name)
+print(car_2.name)
+print(car_3.name)
+print("Bike Details: ")
+print(bike_1.name)
+print(bike_2.name)
+print(bike_3.name)
