@@ -1,31 +1,11 @@
-class Duck:
-    def walk(self):
-        print("Duck is walking")
-    def talk(self):
-        print("Duck is quackng")
-class Person:
-    def catch(self, Duck):
-        Duck.walk()
-        Duck.talk()
-        print("You catch me")
-class Chicken:
-    def walk(self):
-        print("The chicken is walking")
-    def talk(self):
-        print("The chicken is talking")
+product = lambda x,y: x*y
+print(product(10,10))
 
-duck = Duck()
-chicken = Chicken()
-person = Person()
-person.catch(duck)
-person.catch(chicken)
+add = lambda x,y,z: x+y+z
+print(add(20,20,20))
 
-"""
-Output:
-Duck is walking
-Duck is quackng
-You catch me
-The chicken is walking
-The chicken is talking
-You catch me
-"""
+fullName = lambda f_n,l_n: f_n+" "+l_n
+print(fullName("Richard","Taylor"))
+
+age_check = lambda age:True if age>=18 else false
+print(age_check(38))
