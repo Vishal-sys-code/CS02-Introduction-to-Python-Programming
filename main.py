@@ -1,17 +1,30 @@
-class Dog:
-    animal = 'dog'
-    def __init__(self, name, breed):
-        self.name = name
-        self.breed = breed
-    def setColor(self, color):
-        self.color = color
-    def getDetails(self):
-        print("I have my pet and his name is " + self.name + " and he belongs to the breed of " + self.breed)
-    def getColor(self):
-        return self.color
+class Rectangle:
+    def __init__(self,length,width):
+        self.length = length
+        self.width = width
 
-petDog = Dog("Jimmy", "Pug")
-petDog.setColor("White")
-petDog.getDetails()
-color = petDog.getColor()
-print("Color: ", color)
+class Square(Rectangle):
+    def __init__(self,length,width):
+        super().__init__(length,width)
+    def area(self):
+        return self.length * self.width
+
+class Cube(Rectangle):
+    def __init__(self,length, width, height):
+        super().__init__(length, width)
+        self.height = height
+    def volume(self):
+        return self.length * self.width * self.width
+
+square_obj = Square(3,3)
+cube_obj = Cube(3,3,3)
+a = square_obj.area()
+b = cube_obj.volume()
+print(a)
+print(b)
+
+"""
+Output:
+9 
+27
+"""
