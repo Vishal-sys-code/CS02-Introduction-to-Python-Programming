@@ -32,5 +32,12 @@ print(bike_3.name)
 
 """
 Output:
-
+Car Details: 
+Lamborghini
+Ferrari
+McLaren
+Bike Details:
+Duccati
+Hayabusa
+Himalayan Bullet
 """
