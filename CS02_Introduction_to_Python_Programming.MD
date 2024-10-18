@@ -22,3 +22,9 @@
 
 ### Recitations
 - **Recitation 01**: Important Questions on Python
+
+### Problem Solving in Python
+- It contains 3 files of the Assignments
+- Problem Solving 1: Basic Level
+- Problem Solving 2: Intermediate level
+- Problem Solving 3: Advanced level
