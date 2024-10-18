@@ -2,6 +2,13 @@
 
 Threads in Python are a way to achieve concurrency, allowing multiple operations to run simultaneously within a single process. This is particularly useful for I/O-bound tasks, such as network requests or file operations, where waiting for external resources can lead to idle time. However, Python's Global Interpreter Lock (GIL) can limit the effectiveness of threads for CPU-bound tasks.
 
+A flow of execution, like a seperate order of instructions. However each thread takes a turn running to achieve concurrency.
+
+The GIL (locks) allows only one thread to hold the control of the python interpreter at anyone time.
+
+**CPU Bound:** Program/task spends most of its time watching for intervals events(CPU intensive) use multiprocessing
+**I/O Bound:** Program/task spends its time wasting for external events(user input, webscraping) use multithreading.
+
 ## **Definition of Threads**
 
 A thread is a lightweight process that can run concurrently with other threads within the same application. Each thread shares the same memory space but maintains its own stack and local variables. This allows threads to communicate with each other easily, but it also introduces potential issues, like race conditions and deadlocks.
