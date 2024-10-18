@@ -51,7 +51,7 @@ thread2.join()
 print("Done!")
 ```
 
-## **Explanation of the Code**
+### **Explanation of the Code**
 * **Importing Modules:** We import the threading module to work with threads and time to simulate delays.
 * **Defining Functions:** Two functions, print_numbers and print_letters, are defined. Each prints a sequence of numbers or letters with a delay to mimic a time-consuming operation.
 * **Creating Threads:** We create two threads, `thread1` and `thread2`, specifying the target function for each.
