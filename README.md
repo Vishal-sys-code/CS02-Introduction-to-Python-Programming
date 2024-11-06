@@ -1,7 +1,7 @@
 # CS02: Introduction to Python Programming
 
 ## Course Website
-[CS02: Introduction to Python Programming]([https://www.w3schools.com/python/](https://lectures-of-introduction-to-python.vercel.app/))
+[CS02: Introduction to Python Programming](https://lectures-of-introduction-to-python.vercel.app/)
 
 ## Course Overview
 
