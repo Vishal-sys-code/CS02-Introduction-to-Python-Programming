@@ -1,5 +1,8 @@
 # CS02: Introduction to Python Programming
 
+## Course Website
+[CS02: Introduction to Python Programming]([https://www.w3schools.com/python/](https://lectures-of-introduction-to-python.vercel.app/))
+
 ## Course Overview
 
 Welcome to **CS02: Introduction to Python Programming**! This course is designed to introduce you to the fundamentals of Python programming. Whether you are a complete beginner or looking to refresh your skills, this course will provide a solid foundation in Python.
